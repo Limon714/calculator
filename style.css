@@ -13,6 +13,19 @@ body {
     min-height:100vh;
     background:#091921;
 }
+h1{
+    text-align: center;
+    color: #fff;
+    margin-top: -480px;
+    margin-right: 150px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+h1:hover{
+    color: gold;
+    border: 3px solid blue;
+}
 .calculator{
     position:relative;
     display:grid;
@@ -33,7 +46,7 @@ body {
     color:#fff;
     background:#0c2835;
     place-items:center;
-    border:.5px solid rgba(0,0,0,0.1);
+    border:.2px solid rgba(0,0,0,0.1);
 }
 .calculator span:active
 {
